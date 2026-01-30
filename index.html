@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <title>B-ECO Fuel Tabs</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0b0f14;
+      color: white;
+      text-align: center;
+    }
+    header {
+      padding: 40px 20px;
+      background: #0f1a12;
+    }
+    h1 {
+      color: #3cff6f;
+      margin-bottom: 10px;
+    }
+    img {
+      max-width: 300px;
+      margin: 30px auto;
+      display: block;
+    }
+    .btn {
+      background: #3cff6f;
+      color: #000;
+      padding: 15px 25px;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    .section {
+      display: none;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>B-ECO FUEL TABS</h1>
+  <p>Yonilg‘i samaradorligi uchun innovatsion yechim</p>
+</header>
+
+<img src="fuel.jpg" alt="Fuel Tabs">
+
+<button class="btn" onclick="showInfo()">Nimaga foydali?</button>
+
+<div id="info" class="section">
+  <h2>Fuel Tabs foydasi</h2>
+  <p>Yonilg‘i sarfini kamaytiradi, quvvatni oshiradi va chiqindilarni kamaytiradi.</p>
+</div>
+
+<script>
+  function showInfo() {
+    document.getElementById("info").style.display = "block";
+  }
+</script>
+
+</body>
+</html>
